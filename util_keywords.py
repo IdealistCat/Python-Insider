@@ -26,3 +26,6 @@ keywords = [
     "yarlo",
     "zavior",
 ]
+
+def randomKeyword():
+    return keywords[random.randint(0, len(keywords))]
